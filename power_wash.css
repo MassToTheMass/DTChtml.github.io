@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(237, 247, 255);
+    background-position-x: 125px;
+    display: block;
+}
+h1 {
+    text-align: center;
+    color: rgb(172, 231, 255);
+    padding: 20px;
+    margin: 0;
+
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: red;
+}
+nav {
+    width: 150px;
+    float: left;
+    font-size: 130%;
+}
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 2s linear;
+}
+nav a:hover {
+    color: red;
+}
+nav ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+main {
+    margin-left: 170px;
+    padding: 10px;
+    background-color: rgb(45, 235, 235);
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: red;
+}
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+tr {
+    border-top: 1px solid black;
+}
+th {
+    font-size: 120%;
+}
+tr:nth-of-type(even) {
+    background-color: turquoise;
+}
+form {
+    background-color: rgb(71, 240, 240);
+    width: 350px;
+    padding: 10px;
+}
+input[type="submit"] {
+    margin-left: 110px;     
+}
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 150px;
+    padding-right: 10px;
+    text-align: right;
+    margin-top: 10px;
+}
+input {
+    display: block;
+    margin-top: 10px;
+}
+#wrapper {
+    background-image: linear-gradient(to bottom, coral, rgb(237, 247, 255));
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: coral;
+    min-width: 400px;
+}
+#before_after {
+    height: 250px;
+    width: 70%;
+    min-width: 180px;
+}
+#image_spacing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.powerwashing_images {
+    height: 250px;
+    width: 30%;
+    min-width: 180px;
+}
+.form_line { 
+    display: flex;
+}
